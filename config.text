@@ -1,0 +1,20 @@
+git config --global user.name RRB-Rafael
+git config --global user.email rafael.bastos9928@gmail.com
+
+Abrir o Terminal: Ctrl + '
+
+Executar o projeto: 
+npx expo start --localhost --android
+npx expo start
+
+Biblioteca para roda na web:
+npx expo install react-dom react-native-web @expo/metro
+
+COMANDO PARA ATUALIZAR
+npm i 
+
+npx expo start --localhost --android
+
+----------------
+
+npx create-expo-app@latest (Nome) --template blank
