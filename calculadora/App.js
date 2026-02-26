@@ -36,9 +36,17 @@ export default function App() {
 
       <Display 
         theme={theme}
-        expression={state.expression}
-        value={state.display}
+        expression={"100 + "}
+        value={0}
         />
+
+      <View style={styles.pad}>
+        {/*Linha 1*/}
+        <View style={styles.row}>
+          <CalcButton theme={theme} label="C" variant="neutral" onPress={() => {}} />
+        </View>
+      </View>
+
 
     </View>
   );
